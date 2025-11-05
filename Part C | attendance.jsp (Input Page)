@@ -1,0 +1,10 @@
+<form action="AttendanceServlet" method="post">
+<h3>Student Attendance</h3>
+Roll No: <input type="text" name="roll"><br><br>
+Status: 
+<select name="status">
+  <option>Present</option>
+  <option>Absent</option>
+</select><br><br>
+<input type="submit" value="Submit Attendance">
+</form>
